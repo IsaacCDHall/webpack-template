@@ -1,6 +1,6 @@
 body {
   background-color: #7FDBFF;
-  background-image: url("/assets/images/triangle.png");
+  background-image: url("assets/images/triangle.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
