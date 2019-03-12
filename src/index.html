@@ -2,14 +2,29 @@
 <html>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
     <title>Ping Pong</title>
   </head>
   <body>
-    <form id="ping-pong-form">
-      <label for="goal">Enter a number:</label>
-      <input id="goal" type="number">
-      <button type="submit">Submit</button>
-    </form>
-    <ul id="solution"></ul>
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="side1">1st side</label>
+          <input id="side1Length" class="form-control" type="number">
+        </div>
+        <div class="form-group">
+          <label for="side2">2nd side</label>
+          <input id="side2Length" class="form-control" type="number">
+        </div>
+        <div class="form-group">
+          <label for="side3">3rd side</label>
+          <input id="side3Length" class="form-control" type="number">
+        </div>
+        <button type="submit" name="button">What is it</button>
+      </form>
+      <div id="output-nTriangle">
+
+      </div>
+    </div>
   </body>
 </html>
